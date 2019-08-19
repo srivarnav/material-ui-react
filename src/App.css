@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+.MuiCardContent-root{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #e1e7ff;
+  border-radius: 7px;
+}
+
+.MuiFormControl-root .MuiTextField-root .MuiFormControl-marginNormal{
+  width: 100%
+}
